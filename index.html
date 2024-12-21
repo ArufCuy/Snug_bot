@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>SnugBot - Discord Bot</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.svg"
+    />
 
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -16,723 +19,1059 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!--[if lte IE 9]-->
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
+    <p class="browserupgrade">
+      You are using an <strong>outdated</strong> browser. Please
+      <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+      your experience and security.
+    </p>
     <!--[endif]-->
 
     <!-- Preloader -->
     <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
+      <div class="preloader-inner">
+        <div class="preloader-icon">
+          <span></span>
+          <span></span>
         </div>
+      </div>
     </div>
     <!-- /End Preloader -->
 
     <!-- Start Header Area -->
     <header class="header navbar-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="nav-inner">
-                        <!-- Start Navbar -->
-                        <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/white-logo.svg" alt="Logo">
-                            </a>
-                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a href="index.html" class="active" aria-label="Toggle navigation">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="about-us.html" aria-label="Toggle navigation">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
-                                            data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
-                                            aria-expanded="false" aria-label="Toggle navigation">Pages</a>
-                                        <ul class="sub-menu collapse" id="submenu-1-1">
-                                            <li class="nav-item"><a href="about-us.html">About Us</a></li>
-                                            <li class="nav-item"><a href="pricing.html">Our Pricing</a></li>
-                                            <li class="nav-item"><a href="signin.html">Sign In</a></li>
-                                            <li class="nav-item"><a href="signup.html">Sign Up</a></li>
-                                            <li class="nav-item"><a href="reset-password.html">Reset Password</a>
-                                            <li class="nav-item"><a href="mail-success.html">Mail Success</a></li>
-                                            <li class="nav-item"><a href="404.html">404 Error</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
-                                            data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
-                                            aria-expanded="false" aria-label="Toggle navigation">Blog</a>
-                                        <ul class="sub-menu collapse" id="submenu-1-2">
-                                            <li class="nav-item"><a href="blog-grid.html">Blog Grid</a>
-                                            </li>
-                                            <li class="nav-item"><a href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation">Contact</a>
-                                    </li>
-                                </ul>
-                            </div> <!-- navbar collapse -->
-                            <div class="button home-btn">
-                                <a href="signup.html" class="btn">Try for free</a>
-                            </div>
-                        </nav>
-                        <!-- End Navbar -->
-                    </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="nav-inner">
+              <!-- Start Navbar -->
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo/white-logo.svg" alt="Logo" />
+                </a>
+                <button
+                  class="navbar-toggler mobile-menu-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a
+                        href="index.html"
+                        class="active"
+                        aria-label="Toggle navigation"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="about-us.html" aria-label="Toggle navigation"
+                        >About</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dd-menu collapsed"
+                        href="javascript:void(0)"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#submenu-1-1"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >Pages</a
+                      >
+                      <ul class="sub-menu collapse" id="submenu-1-1">
+                        <li class="nav-item">
+                          <a href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="pricing.html">Our Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="signin.html">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="signup.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="reset-password.html">Reset Password</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="mail-success.html">Mail Success</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="404.html">404 Error</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dd-menu collapsed"
+                        href="javascript:void(0)"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#submenu-1-2"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >Blog</a
+                      >
+                      <ul class="sub-menu collapse" id="submenu-1-2">
+                        <li class="nav-item">
+                          <a href="blog-grid.html">Blog Grid</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="blog-single.html">Blog Single</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="contact.html" aria-label="Toggle navigation"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+                <!-- navbar collapse -->
+                <div class="button home-btn">
+                  <a href="signup.html" class="btn">Try for free</a>
+                </div>
+              </nav>
+              <!-- End Navbar -->
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
     </header>
     <!-- End Header Area -->
 
     <!-- Start Hero Area -->
     <section class="hero-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="hero-content">
-                        <h4>Discord Bot Free</h4>
-                        <h1>Best bot app for your discord server<br>
-                            with various modern features</h1>
-                        <p>A Discord bot designed to simplify and enhance server management. With features like auto-moderation, message integration, and content filtering. it's the perfect choice for your community!</p>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="hero-content">
+              <h4>Discord Bot Free</h4>
+              <h1>
+                Best bot app for your discord server<br />
+                with various modern features
+              </h1>
+              <p>
+                A Discord bot designed to simplify and enhance server
+                management. With features like auto-moderation, message
+                integration, and content filtering. it's the perfect choice for
+                your community!
+              </p>
 
-                        <div class="button">
-                            <a href="about-us.html" class="btn ">Add Bot for Free</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-12">
-                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img class="main-image" src="https://i.ibb.co.com/5FjSHQ3/Untitled-design.png" alt="#">
-                    </div>
-                </div>
+              <div class="button">
+                <a href="about-us.html" class="btn">Add Bot for Free</a>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-7 col-12">
+            <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
+              <img
+                class="main-image"
+                src="https://i.ibb.co.com/5FjSHQ3/Untitled-design.png"
+                alt="#"
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Hero Area -->
 
     <!-- Start Features Area -->
     <section class="freatures section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-12">
-                    <div class="image wow fadeInLeft" data-wow-delay=".3s">
-                        <img src="https://i.ibb.co.com/TRSZwyM/fgh.webp" alt="#">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="content">
-                        <h3 class="heading wow fadeInUp" data-wow-delay=".5s"><span>Core Features</span>Built for seamless server management</h3>
-                        <!-- Start Single Feature -->
-                        <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                            <div class="f-icon">
-                                <i class="lni lni-dashboard"></i>
-                            </div>
-                            <h4>Automated Moderation</h4>
-                            <p>Keep your server safe with real-time word filters, auto-moderation, and member control.</p>
-                        </div>
-                        <!-- End Single Feature -->
-                        <!-- Start Single Feature -->
-                        <div class="single-feature wow fadeInUp" data-wow-delay=".7s">
-                            <div class="f-icon">
-                                <i class="lni lni-pencil-alt"></i>
-                            </div>
-                            <h4>User-Friendly Commands</h4>
-                            <p>Simplify tasks like creating polls, sending messages, and managing roles—all with intuitive commands.</p>
-                        </div>
-                        <!-- End Single Feature -->
-                        <!-- Start Single Feature -->
-                        <div class="single-feature wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="f-icon">
-                                <i class="lni lni-vector"></i>
-                            </div>
-                            <h4>Custom Notifications</h4>
-                            <p>Set up alerts for events, updates, or reminders tailored to your server's needs.</p>
-                        </div>
-                        <!-- End Single Feature -->
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12">
+            <div class="image wow fadeInLeft" data-wow-delay=".3s">
+              <img src="https://i.ibb.co.com/TRSZwyM/fgh.webp" alt="#" />
             </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="content">
+              <h3 class="heading wow fadeInUp" data-wow-delay=".5s">
+                <span>Core Features</span>Built for seamless server management
+              </h3>
+              <!-- Start Single Feature -->
+              <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                <div class="f-icon">
+                  <i class="lni lni-dashboard"></i>
+                </div>
+                <h4>Automated Moderation</h4>
+                <p>
+                  Keep your server safe with real-time word filters,
+                  auto-moderation, and member control.
+                </p>
+              </div>
+              <!-- End Single Feature -->
+              <!-- Start Single Feature -->
+              <div class="single-feature wow fadeInUp" data-wow-delay=".7s">
+                <div class="f-icon">
+                  <i class="lni lni-pencil-alt"></i>
+                </div>
+                <h4>User-Friendly Commands</h4>
+                <p>
+                  Simplify tasks like creating polls, sending messages, and
+                  managing roles—all with intuitive commands.
+                </p>
+              </div>
+              <!-- End Single Feature -->
+              <!-- Start Single Feature -->
+              <div class="single-feature wow fadeInUp" data-wow-delay="0.8s">
+                <div class="f-icon">
+                  <i class="lni lni-vector"></i>
+                </div>
+                <h4>Custom Notifications</h4>
+                <p>
+                  Set up alerts for events, updates, or reminders tailored to
+                  your server's needs.
+                </p>
+              </div>
+              <!-- End Single Feature -->
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Features Area -->
 
     <!-- Start Services Area -->
     <div class="services section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">What Snug Offers</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Explore Our Features</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Discover powerful tools and exciting features designed to elevate your Discord server experience. Snug is here to make your community fun, secure, and engaging.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">What Snug Offers</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Explore Our Features
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                Discover powerful tools and exciting features designed to
+                elevate your Discord server experience. Snug is here to make
+                your community fun, secure, and engaging.
+              </p>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-service">
-                        <div class="main-icon">
-                            <i class="lni lni-grid-alt"></i>
-                        </div>
-                        <h4 class="text-title">Moderation Made Easy</h4>
-                        <p>With advanced moderation features, Snug keeps your community safe and organized effortlessly.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-service">
-                        <div class="main-icon">
-                            <i class="lni lni-keyword-research"></i>
-                        </div>
-                        <h4 class="text-title">Interactive Community</h4>
-                        <p>Create a more engaging server atmosphere with interactive messages, fun games, and more!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="single-service">
-                        <div class="main-icon">
-                            <i class="lni lni-vector"></i>
-                        </div>
-                        <h4 class="text-title">Advanced Customization</h4>
-                        <p>Tailor the bot's settings to suit your server’s unique needs for a seamless experience.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-service">
-                        <div class="main-icon">
-                            <i class="lni lni-book"></i>
-                        </div>
-                        <h4 class="text-title">Automated Server Management</h4>
-                        <p>Snug handles routine tasks efficiently with its smart automation features.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-service">
-                        <div class="main-icon">
-                            <i class="lni lni-cloud-network"></i>
-                        </div>
-                        <h4 class="text-title">24/7 Reliability</h4>
-                        <p>Designed to operate around the clock, Snug ensures your community stays connected anytime.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="single-service">
-                        <div class="main-icon">
-                            <i class="lni lni-display-alt"></i>
-                        </div>
-                        <h4 class="text-title">Fun & Engaging Features</h4>
-                        <p>Bring excitement to your server with mini-games, quizzes, and activities everyone will enjoy!</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".2s"
+          >
+            <div class="single-service">
+              <div class="main-icon">
+                <i class="lni lni-grid-alt"></i>
+              </div>
+              <h4 class="text-title">Moderation Made Easy</h4>
+              <p>
+                With advanced moderation features, Snug keeps your community
+                safe and organized effortlessly.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".4s"
+          >
+            <div class="single-service">
+              <div class="main-icon">
+                <i class="lni lni-keyword-research"></i>
+              </div>
+              <h4 class="text-title">Interactive Community</h4>
+              <p>
+                Create a more engaging server atmosphere with interactive
+                messages, fun games, and more!
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".6s"
+          >
+            <div class="single-service">
+              <div class="main-icon">
+                <i class="lni lni-vector"></i>
+              </div>
+              <h4 class="text-title">Advanced Customization</h4>
+              <p>
+                Tailor the bot's settings to suit your server’s unique needs for
+                a seamless experience.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".2s"
+          >
+            <div class="single-service">
+              <div class="main-icon">
+                <i class="lni lni-book"></i>
+              </div>
+              <h4 class="text-title">Automated Server Management</h4>
+              <p>
+                Snug handles routine tasks efficiently with its smart automation
+                features.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".4s"
+          >
+            <div class="single-service">
+              <div class="main-icon">
+                <i class="lni lni-cloud-network"></i>
+              </div>
+              <h4 class="text-title">24/7 Reliability</h4>
+              <p>
+                Designed to operate around the clock, Snug ensures your
+                community stays connected anytime.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".6s"
+          >
+            <div class="single-service">
+              <div class="main-icon">
+                <i class="lni lni-display-alt"></i>
+              </div>
+              <h4 class="text-title">Fun & Engaging Features</h4>
+              <p>
+                Bring excitement to your server with mini-games, quizzes, and
+                activities everyone will enjoy!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End Services Area -->
-    
+
     <!-- Start Intro Video Area -->
     <section class="intro-video-area section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="inner-content-head">
-                        <div class="inner-content">
-                            <img class="shape1" src="assets/images/video/shape1.svg" alt="#">
-                            <img class="shape2" src="assets/images/video/shape2.svg" alt="#">
-                            <div class="section-title">
-                                <span class="wow zoomIn" data-wow-delay=".2s">Create your own experience</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".4s">Watch Our intro video</h2>
-                                <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of
-                                    Lorem
-                                    Ipsum available, but the majority have suffered alteration in some form.</p>
-                            </div>
-                            <div class="intro-video-play">
-                                <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
-                                    <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
-                                        class="glightbox video"><i class="lni lni-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="inner-content-head">
+              <div class="inner-content">
+                <img
+                  class="shape1"
+                  src="assets/images/video/shape1.svg"
+                  alt="#"
+                />
+                <img
+                  class="shape2"
+                  src="assets/images/video/shape2.svg"
+                  alt="#"
+                />
+                <div class="section-title">
+                  <span class="wow zoomIn" data-wow-delay=".2s"
+                    >Create your own experience</span
+                  >
+                  <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                    Watch Our intro video
+                  </h2>
+                  <p class="wow fadeInUp" data-wow-delay=".6s">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </p>
                 </div>
+                <div class="intro-video-play">
+                  <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
+                    <a
+                      href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
+                      class="glightbox video"
+                      ><i class="lni lni-play"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Intro Video Area -->
 
     <!-- Start Team Area -->
     <section class="team section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Expert Team</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Meet Our Team</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Our team is dedicated to delivering the best experience for your server. Every member brings expertise and passion to ensure the bot meets your needs seamlessly.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Expert Team</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">Meet Our Team</h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                Our team is dedicated to delivering the best experience for your
+                server. Every member brings expertise and passion to ensure the
+                bot meets your needs seamlessly.
+              </p>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-12 offset-lg-3" data-wow-delay=".3s">
-                    <!-- Start Single Team -->
-                    <div class="single-team">
-                        <div class="team-image">
-                            <img src="https://i.pinimg.com/736x/ca/ee/ad/caeead0dba836ad33992ab067f5f6894.jpg" alt="#">
-                        </div>
-                        <div class="content">
-                            <h4>Louis
-                                <span>Owner & Developer</span>
-                            </h4>
-                            <ul class="social">
-                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Team -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".5s">
-                    <!-- Start Single Team -->
-                    <div class="single-team">
-                        <div class="team-image">
-                            <img src="https://i.pinimg.com/736x/5d/37/be/5d37befa5de2daaf520b09a4045aa517.jpg" alt="#">
-                        </div>
-                        <div class="content">
-                            <h4>Leonardx
-                                <span>Developer</span>
-                            </h4>
-                            <ul class="social">
-                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Team -->
-                </div>
-                
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-6 col-12 offset-lg-3"
+            data-wow-delay=".3s"
+          >
+            <!-- Start Single Team -->
+            <div class="single-team">
+              <div class="team-image">
+                <img
+                  src="https://i.pinimg.com/736x/ca/ee/ad/caeead0dba836ad33992ab067f5f6894.jpg"
+                  alt="#"
+                />
+              </div>
+              <div class="content">
+                <h4>
+                  Louis
+                  <span>Owner & Developer</span>
+                </h4>
+                <ul class="social">
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-facebook-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-twitter-original"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-linkedin-original"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Single Team -->
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-12 wow fadeInUp"
+            data-wow-delay=".5s"
+          >
+            <!-- Start Single Team -->
+            <div class="single-team">
+              <div class="team-image">
+                <img
+                  src="https://i.pinimg.com/736x/5d/37/be/5d37befa5de2daaf520b09a4045aa517.jpg"
+                  alt="#"
+                />
+              </div>
+              <div class="content">
+                <h4>
+                  Leonardx
+                  <span>Developer</span>
+                </h4>
+                <ul class="social">
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-facebook-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-twitter-original"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="lni lni-linkedin-original"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Single Team -->
+          </div>
+        </div>
+      </div>
     </section>
     <!--/ End Team Area -->
 
     <!-- Start Testimonials Area -->
     <section class="testimonials style2 section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Customer Reviews</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Testimonials</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Customer Reviews</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Our Testimonials
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
             </div>
-            <div class="row testimonial-slider">
-                <div class="col-lg-6 col-12 ">
-                    <!-- Start Single Testimonial -->
-                    <div class="single-testimonial">
-                        <div class="inner-content">
-                            <div class="quote-icon">
-                                <i class="lni lni-quotation"></i>
-                            </div>
-                            <div class="text">
-                                <p>“A vast number of clients decide to create dedicated software is the
-                                    online store. It is nothing but a website with a catalog of products and the
-                                    possibility.”</p>
-                            </div>
-                            <div class="author">
-                                <img src="https://via.placeholder.com/100x100" alt="#">
-                                <h4 class="name">Somalia D Silva
-                                    <span class="deg">Business Manager</span>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-                </div>
-                <div class="col-lg-6 col-12 ">
-                    <!-- Start Single Testimonial -->
-                    <div class="single-testimonial">
-                        <div class="inner-content">
-                            <div class="quote-icon">
-                                <i class="lni lni-quotation"></i>
-                            </div>
-                            <div class="text">
-                                <p>“A vast number of clients decide to create dedicated software is the
-                                    online store. It is nothing but a website with a catalog of products and the
-                                    possibility.”</p>
-                            </div>
-                            <div class="author">
-                                <img src="https://via.placeholder.com/100x100" alt="#">
-                                <h4 class="name">David Warner
-                                    <span class="deg">Web Developer</span>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-                </div>
-                <div class="col-lg-6 col-12 ">
-                    <!-- Start Single Testimonial -->
-                    <div class="single-testimonial">
-                        <div class="inner-content">
-                            <div class="quote-icon">
-                                <i class="lni lni-quotation"></i>
-                            </div>
-                            <div class="text">
-                                <p>“A vast number of clients decide to create dedicated software is the
-                                    online store. It is nothing but a website with a catalog of products and the
-                                    possibility.”</p>
-                            </div>
-                            <div class="author">
-                                <img src="https://via.placeholder.com/100x100" alt="#">
-                                <h4 class="name">Jems Gilario
-                                    <span class="deg">Graphics Designer</span>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-                </div>
-                <div class="col-lg-6 col-12 ">
-                    <!-- Start Single Testimonial -->
-                    <div class="single-testimonial">
-                        <div class="inner-content">
-                            <div class="quote-icon">
-                                <i class="lni lni-quotation"></i>
-                            </div>
-                            <div class="text">
-                                <p>“A vast number of clients decide to create dedicated software is the
-                                    online store. It is nothing but a website with a catalog of products and the
-                                    possibility.”</p>
-                            </div>
-                            <div class="author">
-                                <img src="https://via.placeholder.com/100x100" alt="#">
-                                <h4 class="name">David Warner
-                                    <span class="deg">Web Developer</span>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-                </div>
-                <div class="col-lg-6 col-12 ">
-                    <!-- Start Single Testimonial -->
-                    <div class="single-testimonial">
-                        <div class="inner-content">
-                            <div class="quote-icon">
-                                <i class="lni lni-quotation"></i>
-                            </div>
-                            <div class="text">
-                                <p>“A vast number of clients decide to create dedicated software is the
-                                    online store. It is nothing but a website with a catalog of products and the
-                                    possibility.”</p>
-                            </div>
-                            <div class="author">
-                                <img src="https://via.placeholder.com/100x100" alt="#">
-                                <h4 class="name">Jems Gilario
-                                    <span class="deg">Graphics Designer</span>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Testimonial -->
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row testimonial-slider">
+          <div class="col-lg-6 col-12">
+            <!-- Start Single Testimonial -->
+            <div class="single-testimonial">
+              <div class="inner-content">
+                <div class="quote-icon">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <div class="text">
+                  <p>
+                    “This bot completely changed how I manage my server. It's a
+                    must-have!”
+                  </p>
+                </div>
+                <div class="author">
+                  <img src="https://via.placeholder.com/100x100" alt="#" />
+                  <h4 class="name">
+                    ShadowHunter#1234
+                    <span class="deg">Server Administrator</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Testimonial -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Single Testimonial -->
+            <div class="single-testimonial">
+              <div class="inner-content">
+                <div class="quote-icon">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <div class="text">
+                  <p>
+                    “I love the moderation features of this bot. Makes life so
+                    much easier.”
+                  </p>
+                </div>
+                <div class="author">
+                  <img src="https://via.placeholder.com/100x100" alt="#" />
+                  <h4 class="name">
+                    PixelGuardian#4567
+                    <span class="deg">Moderator</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Testimonial -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Single Testimonial -->
+            <div class="single-testimonial">
+              <div class="inner-content">
+                <div class="quote-icon">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <div class="text">
+                  <p>
+                    “Custom commands and reactions are super easy to set up.
+                    Highly recommend.”
+                  </p>
+                </div>
+                <div class="author">
+                  <img src="https://via.placeholder.com/100x100" alt="#" />
+                  <h4 class="name">
+                    CyberWolf#7890
+                    <span class="deg">Tech Enthusiast</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Testimonial -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Single Testimonial -->
+            <div class="single-testimonial">
+              <div class="inner-content">
+                <div class="quote-icon">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <div class="text">
+                  <p>
+                    “This bot's uptime and speed are unmatched. It just works
+                    flawlessly.”
+                  </p>
+                </div>
+                <div class="author">
+                  <img src="https://via.placeholder.com/100x100" alt="#" />
+                  <h4 class="name">
+                    NightRaven#1122
+                    <span class="deg">Bot Developer</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Testimonial -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Single Testimonial -->
+            <div class="single-testimonial">
+              <div class="inner-content">
+                <div class="quote-icon">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <div class="text">
+                  <p>
+                    “The bot's economy system added a lot of fun to our server!”
+                  </p>
+                </div>
+                <div class="author">
+                  <img src="https://via.placeholder.com/100x100" alt="#" />
+                  <h4 class="name">
+                    CrystalFrost#3344
+                    <span class="deg">Community Manager</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Testimonial -->
+          </div>
+        </div>
+      </div>
     </section>
     <!-- End Testimonial Area -->
 
     <!-- Start Faq Area -->
     <section class="faq section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Faq</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">frequently asked questions</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have
-                            suffered alteration in some form.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 class="wow zoomIn" data-wow-delay=".2s">Faq</h3>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                frequently asked questions
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                    <span class="title">Can I cancel my subscription at anytime?</span><i
-                                        class="lni lni-plus"></i>
-                                </button>
-                            </h2>
-                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
-                                        amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu
-                                        erat mattis lorem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
-                                        amet ante nec vulputate.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    <span class="title">Can I change my plan later on?</span><i
-                                        class="lni lni-plus"></i>
-                                </button>
-                            </h2>
-                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor
-                                        brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                                    </p>
-                                    <p>
-                                        sunt alqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et. Nihil anim ke ffiyeh helvetica, Spark beer labore wes anderson
-                                        cred nesciunt sapiente ea proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    <span class="title">Will you renew my subscription automatically?</span><i
-                                        class="lni lni-plus"></i>
-                                </button>
-                            </h2>
-                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita,
-                                        repellendus est nemo cum quibusdam optio, voluptate hic a tempora facere, nihil
-                                        non itaque alias similique quas quam odit consequatur.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12 xs-margin">
-                    <div class="accordion" id="accordionExample2">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading11">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                                    <span class="title">How many sites can I install the widgets of this app
-                                        to?</span><i class="lni lni-plus"></i>
-                                </button>
-                            </h2>
-                            <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
-                                data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
-                                        amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu
-                                        erat mattis lorem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
-                                        amet ante nec vulputate.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading22">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
-                                    <span class="title">Do you offer any discounts?</span><i class="lni lni-plus"></i>
-                                </button>
-                            </h2>
-                            <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22"
-                                data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor
-                                        brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                                    </p>
-                                    <p>
-                                        sunt alqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et. Nihil anim ke ffiyeh helvetica, Spark beer labore wes anderson
-                                        cred nesciunt sapiente ea proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading33">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse33" aria-expanded="false" aria-controls="collapse33">
-                                    <span class="title">Do I get updates for the app?</span><i class="lni lni-plus"></i>
-                                </button>
-                            </h2>
-                            <div id="collapse33" class="accordion-collapse collapse" aria-labelledby="heading33"
-                                data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita,
-                                        repellendus est nemo cum quibusdam optio, voluptate hic a tempora facere, nihil
-                                        non itaque alias similique quas quam odit consequatur.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse1"
+                    aria-expanded="false"
+                    aria-controls="collapse1"
+                  >
+                    <span class="title"
+                      >Can I cancel my subscription at anytime?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapse1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading1"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam consectetur sit amet ante nec vulputate. Nulla
+                      aliquam, justo auctor consequat tincidunt, arcu erat
+                      mattis lorem.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam consectetur sit amet ante nec vulputate.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse2"
+                    aria-expanded="false"
+                    aria-controls="collapse2"
+                  >
+                    <span class="title">Can I change my plan later on?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapse2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading2"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute. non cupidatat skateboard dolor brunch. Foosd truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor.
+                    </p>
+                    <p>
+                      sunt alqua put a bird on it squid single-origin coffee
+                      nulla assumenda shoreditch et. Nihil anim ke ffiyeh
+                      helvetica, Spark beer labore wes anderson cred nesciunt
+                      sapiente ea proident.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse3"
+                    aria-expanded="false"
+                    aria-controls="collapse3"
+                  >
+                    <span class="title"
+                      >Will you renew my subscription automatically?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapse3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading3"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Voluptas expedita, repellendus est nemo cum quibusdam
+                      optio, voluptate hic a tempora facere, nihil non itaque
+                      alias similique quas quam odit consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 xs-margin">
+            <div class="accordion" id="accordionExample2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading11">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse11"
+                    aria-expanded="false"
+                    aria-controls="collapse11"
+                  >
+                    <span class="title"
+                      >How many sites can I install the widgets of this app
+                      to?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapse11"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading11"
+                  data-bs-parent="#accordionExample2"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam consectetur sit amet ante nec vulputate. Nulla
+                      aliquam, justo auctor consequat tincidunt, arcu erat
+                      mattis lorem.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam consectetur sit amet ante nec vulputate.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading22">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse22"
+                    aria-expanded="false"
+                    aria-controls="collapse22"
+                  >
+                    <span class="title">Do you offer any discounts?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapse22"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading22"
+                  data-bs-parent="#accordionExample2"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute. non cupidatat skateboard dolor brunch. Foosd truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor.
+                    </p>
+                    <p>
+                      sunt alqua put a bird on it squid single-origin coffee
+                      nulla assumenda shoreditch et. Nihil anim ke ffiyeh
+                      helvetica, Spark beer labore wes anderson cred nesciunt
+                      sapiente ea proident.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading33">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse33"
+                    aria-expanded="false"
+                    aria-controls="collapse33"
+                  >
+                    <span class="title">Do I get updates for the app?</span
+                    ><i class="lni lni-plus"></i>
+                  </button>
+                </h2>
+                <div
+                  id="collapse33"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading33"
+                  data-bs-parent="#accordionExample2"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Voluptas expedita, repellendus est nemo cum quibusdam
+                      optio, voluptate hic a tempora facere, nihil non itaque
+                      alias similique quas quam odit consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--/ End Faq Area -->
 
     <!-- Start Call Action Area -->
     <section class="call-action">
-        <div class="container">
-            <div class="inner-content">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-7 col-12">
-                        <div class="text">
-                            <h2>Download Our App &
-                                <br> Start your free trial today.
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-5 col-12">
-                        <div class="button">
-                            <a href="pricing.html" class="btn"><i class="lni lni-apple"></i> App Store
-                            </a>
-                            <a href="about-us.html" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
-                                Play</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="inner-content">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-7 col-12">
+              <div class="text">
+                <h2>
+                  Download Our App & <br />
+                  Start your free trial today.
+                </h2>
+              </div>
             </div>
+            <div class="col-lg-6 col-md-5 col-12">
+              <div class="button">
+                <a href="pricing.html" class="btn"
+                  ><i class="lni lni-apple"></i> App Store
+                </a>
+                <a href="about-us.html" class="btn btn-alt"
+                  ><i class="lni lni-play-store"></i> Google Play</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Call Action Area -->
 
     <!-- Start Footer Area -->
     <footer class="footer section">
-        <!-- Start Footer Top -->
-        <div class="footer-top">
-            <div class="container">
-                <div class="inner-content">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <!-- Single Widget -->
-                            <div class="single-footer f-about">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/logo/white-logo.svg" alt="#">
-                                    </a>
-                                </div>
-                                <p>Making the world a better place through constructing elegant hierarchies.</p>
-                                <h4 class="social-title">Follow Us On:</h4>
-                                <ul class="social">
-                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-pinterest"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- End Single Widget -->
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-12">
-                            <!-- Single Widget -->
-                            <div class="single-footer f-link">
-                                <h3>Solutions</h3>
-                                <ul>
-                                    <li><a href="javascript:void(0)">Marketing</a></li>
-                                    <li><a href="javascript:void(0)">Analytics</a></li>
-                                    <li><a href="javascript:void(0)">Commerce</a></li>
-                                    <li><a href="javascript:void(0)">Insights</a></li>
-                                </ul>
-                            </div>
-                            <!-- End Single Widget -->
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-12">
-                            <!-- Single Widget -->
-                            <div class="single-footer f-link">
-                                <h3>Support</h3>
-                                <ul>
-                                    <li><a href="javascript:void(0)">Pricing</a></li>
-                                    <li><a href="javascript:void(0)">Documentation</a></li>
-                                    <li><a href="javascript:void(0)">Guides</a></li>
-                                    <li><a href="javascript:void(0)">API Status</a></li>
-                                </ul>
-                            </div>
-                            <!-- End Single Widget -->
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <!-- Single Widget -->
-                            <div class="single-footer newsletter">
-                                <h3>Subscribe</h3>
-                                <p>Subscribe to our newsletter for the latest updates</p>
-                                <form action="#" method="get" target="_blank" class="newsletter-form">
-                                    <input name="EMAIL" placeholder="Email address" required="required" type="email">
-                                    <div class="button">
-                                        <button class="sub-btn"><i class="lni lni-envelope"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                            <!-- End Single Widget -->
-                        </div>
-                    </div>
+      <!-- Start Footer Top -->
+      <div class="footer-top">
+        <div class="container">
+          <div class="inner-content">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer f-about">
+                  <div class="logo">
+                    <a href="index.html">
+                      <img src="assets/images/logo/white-logo.svg" alt="#" />
+                    </a>
+                  </div>
+                  <p>
+                    Making the world a better place through constructing elegant
+                    hierarchies.
+                  </p>
+                  <h4 class="social-title">Follow Us On:</h4>
+                  <ul class="social">
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-facebook-filled"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-twitter-original"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-linkedin-original"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-pinterest"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="lni lni-youtube"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </div>
-        <!--/ End Footer Top -->
-        <!-- Start Copyright Area -->
-        <div class="copyright-area">
-            <div class="container">
-                <div class="inner-content">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <p class="copyright-text">© 2024 Snugbot - All Rights Reserved</p>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <p class="copyright-owner">Designed and Developed by <a href="https://uideck.com/"
-                                    rel="nofollow" target="_blank">UIdeck</a>
-                        </div>
-                    </div>
+                <!-- End Single Widget -->
+              </div>
+              <div class="col-lg-2 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer f-link">
+                  <h3>Solutions</h3>
+                  <ul>
+                    <li><a href="javascript:void(0)">Marketing</a></li>
+                    <li><a href="javascript:void(0)">Analytics</a></li>
+                    <li><a href="javascript:void(0)">Commerce</a></li>
+                    <li><a href="javascript:void(0)">Insights</a></li>
+                  </ul>
                 </div>
+                <!-- End Single Widget -->
+              </div>
+              <div class="col-lg-2 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer f-link">
+                  <h3>Support</h3>
+                  <ul>
+                    <li><a href="javascript:void(0)">Pricing</a></li>
+                    <li><a href="javascript:void(0)">Documentation</a></li>
+                    <li><a href="javascript:void(0)">Guides</a></li>
+                    <li><a href="javascript:void(0)">API Status</a></li>
+                  </ul>
+                </div>
+                <!-- End Single Widget -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <!-- Single Widget -->
+                <div class="single-footer newsletter">
+                  <h3>Subscribe</h3>
+                  <p>Subscribe to our newsletter for the latest updates</p>
+                  <form
+                    action="#"
+                    method="get"
+                    target="_blank"
+                    class="newsletter-form"
+                  >
+                    <input
+                      name="EMAIL"
+                      placeholder="Email address"
+                      required="required"
+                      type="email"
+                    />
+                    <div class="button">
+                      <button class="sub-btn">
+                        <i class="lni lni-envelope"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <!-- End Single Widget -->
+              </div>
             </div>
+          </div>
         </div>
-        <!-- End Copyright Area -->
+      </div>
+      <!--/ End Footer Top -->
+      <!-- Start Copyright Area -->
+      <div class="copyright-area">
+        <div class="container">
+          <div class="inner-content">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <p class="copyright-text">
+                  © 2024 Snugbot - All Rights Reserved
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <p class="copyright-owner">
+                  Designed and Developed by
+                  <a href="https://uideck.com/" rel="nofollow" target="_blank"
+                    >UIdeck</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Copyright Area -->
     </footer>
     <!--/ End Footer Area -->
 
     <!-- ========================= scroll-top ========================= -->
     <a href="#" class="scroll-top">
-        <i class="lni lni-chevron-up"></i>
+      <i class="lni lni-chevron-up"></i>
     </a>
 
     <!-- ========================= JS here ========================= -->
@@ -743,56 +1082,53 @@
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-
-        //========= testimonial 
-        tns({
-            container: '.testimonial-slider',
+      //========= testimonial
+      tns({
+        container: ".testimonial-slider",
+        items: 3,
+        slideBy: "page",
+        autoplay: false,
+        mouseDrag: true,
+        gutter: 0,
+        nav: true,
+        controls: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          540: {
+            items: 1,
+          },
+          768: {
+            items: 2,
+          },
+          992: {
+            items: 2,
+          },
+          1170: {
             items: 3,
-            slideBy: 'page',
-            autoplay: false,
-            mouseDrag: true,
-            gutter: 0,
-            nav: true,
-            controls: false,
-            responsive: {
-                0: {
-                    items: 1,
-                },
-                540: {
-                    items: 1,
-                },
-                768: {
-                    items: 2,
-                },
-                992: {
-                    items: 2,
-                },
-                1170: {
-                    items: 3,
-                }
-            }
-        });
+          },
+        },
+      });
 
-        //====== counter up 
-        var cu = new counterUp({
-            start: 0,
-            duration: 2000,
-            intvalues: true,
-            interval: 100,
-            append: " ",
-        });
-        cu.start();
+      //====== counter up
+      var cu = new counterUp({
+        start: 0,
+        duration: 2000,
+        intvalues: true,
+        interval: 100,
+        append: " ",
+      });
+      cu.start();
 
-        //========= glightbox
-        GLightbox({
-            'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
-            'type': 'video',
-            'source': 'youtube', //vimeo, youtube or local
-            'width': 900,
-            'autoplayVideos': true,
-        });
-
+      //========= glightbox
+      GLightbox({
+        href: "https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM",
+        type: "video",
+        source: "youtube", //vimeo, youtube or local
+        width: 900,
+        autoplayVideos: true,
+      });
     </script>
-</body>
-
+  </body>
 </html>
